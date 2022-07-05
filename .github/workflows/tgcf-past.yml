@@ -1,4 +1,4 @@
-name: tgcf-live
+name: tgcf-past
 
 on:
   workflow_dispatch: # run when triggered manually
@@ -17,7 +17,7 @@ jobs:
         with:
           fetch-depth: 0
           
-      - uses: ./.github/actions/tgcf-live
+      - uses: ./.github/actions/tgcf-past
         env:
           API_ID: ${{ secrets.API_ID }}
           API_HASH: ${{ secrets.API_HASH }}
