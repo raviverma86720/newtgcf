@@ -16,13 +16,13 @@ forwards:
     # me means, the messages will be saved in your Saved Messages in telegram
     offset: 0 # from where to start (0 means from the first message of source)
     # offset will automatically be updated when the program runs
-  # - source: -1001
-  #   dest: []
+  # - source: -1001634202364
+  #   dest: -1001721898569
   #   offset: 0
   # add more sources if you wish
 
 past:
-  delay: 3 # wait for 3s after forwarding each message
+  delay: 0 # wait for 0s after forwarding each message
 
 plugins:
   # specify the plugins you want to use
