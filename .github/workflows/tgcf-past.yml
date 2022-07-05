@@ -1,4 +1,4 @@
-name: tgcf-past
+name: tgcf-live
 
 on:
   workflow_dispatch: # run when triggered manually
